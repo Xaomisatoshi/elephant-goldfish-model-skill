@@ -1,0 +1,16 @@
+interface:
+  display_name: elephant goldfish model
+  short_description: Führt einen strukturierten, spezifikationsgetriebenen Entwicklungsprozess
+    nach dem Elephant-Goldfish-Modell (EGM) durch. Nutze diesen Skill, wenn der Nutzer
+    das Elephant-Goldfish-Modell, EGM, Spec-Driven Development erwähnt, Software-Features
+    gründlich vor dem Coden planen möchte oder einen unvoreingenommenen Review (Goldfish
+    Review) eines Entwurfs benötigt.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
